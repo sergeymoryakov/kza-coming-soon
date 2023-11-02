@@ -18,7 +18,7 @@ body {
     padding: 0.5rem;
     height: 100svh;
     width: 100svw;
-    min-width: 360px;
+    min-width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
