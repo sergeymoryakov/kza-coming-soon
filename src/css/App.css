@@ -16,9 +16,9 @@ body {
 .master-container {
     margin: 0 auto;
     padding: 0.5rem;
+    height: 100svh;
     width: 100svw;
     min-width: 360px;
-    height: 100svh;
     display: flex;
     flex-direction: column;
     justify-content: center;

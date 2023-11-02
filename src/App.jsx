@@ -1,5 +1,5 @@
 import kzLogo from "./assets/kza-logo-t9-h150.svg";
-import "./App.css";
+import "./css/App.css";
 
 function App() {
     return (
