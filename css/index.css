@@ -1,14 +1,5 @@
 @import "./general-sans.css";
 
-@keyframes bg-animation {
-    0% {
-        background-position: left;
-    }
-    100% {
-        background-position: right;
-    }
-}
-
 :root {
     --black: #1d1d1d;
     --black-gray: #272727;
@@ -27,19 +18,55 @@
     --br-gradient: linear-gradient(146deg, #0047ff, #c52300);
 
     font-family: "GeneralSans-Variable";
+    font-size: smaller;
 
     color: var(--white);
-    background: var(--black-gradient);
+    background: var(--black-gray);
+}
+
+@media (max-width: 576px) {
+    :root {
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 476px) {
+    :root {
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 350px) {
+    :root {
+        font-size: xx-small;
+    }
+}
+
+@keyframes bg-animation {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
 }
 
 body {
-    margin: 0;
+    /* background: var(--black-gradient); */
+    min-width: 360px;
+    min-height: 100svh;
+}
+
+.master-container {
+    margin: 0 auto;
+    padding: 0.5rem;
+    height: 100svh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     place-items: center;
-    min-width: 320px;
-    min-height: 100svh;
+    /* border: 1px dashed red; */
+    background: var(--black-gradient);
 }
 
 h1 {
@@ -69,20 +96,33 @@ h3 {
     letter-spacing: -0.12rem;
 }
 
+p {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1rem;
+}
+
 .container {
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 2rem;
+    /* border: 1px dashed greenyellow; */
+}
+
+.horisontal-box {
     display: flex;
     flex-direction: row;
     gap: 2rem;
 }
 
-.container2 {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    gap: 2rem;
+.logo {
+    max-height: 11rem;
 }
 
-.gradient {
+.text-gradient {
     background: var(--br-gradient);
     background-clip: text;
     -webkit-background-clip: text;
