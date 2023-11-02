@@ -1,0 +1,37 @@
+@import "./general-sans.css";
+
+:root {
+    --black: #1d1d1d;
+    --black-gray: #272727;
+    --royal-blue: #0047ff;
+    --fire-red: #c52300;
+    --gray: #7e7e7e;
+    --medium-gray: #bdbdbd;
+    --sky-gray: #cad0d6;
+    --white: #ffffff;
+    --black-gradient: linear-gradient(
+        146deg,
+        #151515 6.46%,
+        #2c2c2c 53.91%,
+        #000 90.82%
+    );
+    --br-gradient: linear-gradient(146deg, #0047ff, #c52300);
+
+    font-family: "GeneralSans-Variable";
+    font-size: smaller;
+
+    color: var(--white);
+    background: var(--black-gray);
+}
+
+@media (max-width: 576px) {
+    :root {
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 476px) {
+    :root {
+        font-size: xx-small;
+    }
+}

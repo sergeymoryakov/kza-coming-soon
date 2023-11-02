@@ -1,2 +1,3 @@
-# kza-coming-soon
-Coming Soon single page
+# Karagoz Aviation
+
+Coming Soon - Stay Tuned, a Single Pager with React + Vite.
