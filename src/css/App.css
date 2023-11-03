@@ -7,65 +7,15 @@
     }
 }
 
-/* 
-body {
-    min-height: 100svh;
-} 
-*/
-
-.master-container {
-    margin: 0 auto;
-    padding: 0.5rem;
-    height: 100svh;
-    width: 100svw;
-    min-width: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    place-items: center;
-    background: var(--black-gradient);
-}
-
-h1 {
-    padding: 1rem 0;
-    font-size: 9.5rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 7.5rem;
-    letter-spacing: -0.57rem;
-}
-
-h2 {
-    padding: 0.5rem 0;
-    font-size: 6rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 5rem;
-    letter-spacing: -0.36rem;
-}
-
-h3 {
-    padding: 0.25rem 0;
-    font-size: 4rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 3.5rem;
-    letter-spacing: -0.12rem;
-}
-
-p {
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1rem;
-}
-
 .container {
+    padding: 3rem;
     max-width: 1400px;
     display: flex;
     flex-direction: column;
     place-items: center;
     gap: 2rem;
+    border: 1.5px solid var(--fire-red);
+    border-radius: 1.5rem;
 }
 
 .horisontal-box {

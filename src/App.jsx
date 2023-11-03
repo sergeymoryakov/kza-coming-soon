@@ -3,7 +3,7 @@ import "./css/App.css";
 
 function App() {
     return (
-        <div className="master-container">
+        <div>
             <div className="container">
                 <div className="horisontal-box">
                     <img className="logo" src={kzLogo} alt="Logo" />
