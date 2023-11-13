@@ -68,8 +68,8 @@ body {
     place-items: center;
     min-width: 320px;
     min-height: 100svh;
-    /* background: var(--black-gradient); */
-    background: var(--black-gray);
+    background: var(--black-gradient);
+    /* background: var(--black-gray); */
 }
 
 h1 {

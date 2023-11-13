@@ -1,7 +1,7 @@
 import React from "react";
 // import kzLogo from "./assets/kza-logo-t9-h150.svg";
-import LOGO_3D_SAFARI from "../../assets/logo-hevc.mov";
-import LOGO_3D_CHROME from "../../assets/logo-vp9-chrome.webm";
+import LOGO_3D_SAFARI from "../../assets/logo-transparent-hevc-safari.mp4";
+import LOGO_3D_CHROME from "../../assets/logo-transparent-vp9-chrome.webm";
 import "./ComingSoon.css";
 
 function ComingSoon() {
